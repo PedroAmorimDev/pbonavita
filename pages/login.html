@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/stylehome.css">
+</head>
+<body class="bodylogin">
+    <nav class="navbar" >
+        <a class="nav-link" href="./index.html">HOME &nbsp&nbsp</a>
+        <a class="nav-link" href="./contato.html" >CONTATO &nbsp&nbsp</a>
+        <a class="nav-link" href="" >PORTAL &nbsp&nbsp</a>
+        <a class="nav-link" href="#balao" >SERVIÇOS &nbsp&nbsp</a>
+        <a class="login" href="./login.html">LOGIN &nbsp&nbsp</a>
+        <button class="cadastro"> CADASTRO</button> 
+    </nav>
+
+    <section>
+        <div id="sucessoLOGIN" class="acerto">✅ Cadastro Realizado</div>
+        <form id="formularioEntrar">
+    <label for="">E-mail:</label>
+
+
+            <input type="text" id="emaillogin" placeholder="email@email.com">
+            <div id="error-required-emaillogin" class="error">⚠️ Campo obrigatório</div>
+            <div id="error-required-emailvalidoentrar" class="error">⚠️ Email inválido</div>
+            
+            <label for="">Senha:</label>
+            <input type="password" id="senhalogin" placeholder="Digite sua senha" maxlength="8">
+            <div id="error-required-senhalogin" class="error">⚠️ Campo obrigatório</div>
+            <div id="error-required-senhalogin8" class="error">⚠️ A senha deve conter 8 caracteres </div>
+            
+
+
+
+            <button id="btnSend">Enviar</button>
+    
+    
+        </form>
+        </section>
+    
+    <script src="../js/validacaocadastro.js"></script>
+</body>
+</html>

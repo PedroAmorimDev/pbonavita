@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+:root {
+    --black: #000;
+    --gray: #494c4e;
+    --white: #fff;
+    --cinzaclaro: #989a91;
+    --verdeescuro: #478A56;
+    --verde-claro: #CFE9B5;
+    --vermelho: #Ff0000;
+}
+
+.navbar{
+    background-color: #478A56;
+    padding: 25px;
+    display: flex;
+    justify-content: end;
+}
+na.nav-link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.login{
+    color: #CFE9B5;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.cadastro{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #CFE9B5;
+    border-radius: 5px;
+    border-color: #CFE9B5;
+    padding: 9px;
+    font-size: 15px;
+}
+
+body{
+    margin: 0;
+}
+
+.bodylogin{
+    background-color: var(--black);
+}
+
+section {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: var(--white);
+    
+    padding: 20px;
+    color: var(--black);
+}
+
+.acerto{
+    margin: auto;
+    background-color: var(--verdeescuro);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    margin-bottom: 10px;
+    background-color: var(--white);
+}
+
+button {
+    margin-top: 5px;
+    font-family: 'Roboto', bold;
+    color: var(--black);
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.error {
+    background-color: var(--vermelho);
+    color: var(--white);
+    display: none;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    margin: 1px ;
+    padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.acerto {
+    background-color: green;
+    display: none;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    margin: auto ;
+    padding: 5px;
+}
+
+.logo{
+    color: var(--white);
+    font-size: 30px;
+    font-family: 'Roboto', bold;
+    text-decoration: none;
+    
+}
